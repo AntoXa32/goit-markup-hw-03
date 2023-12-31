@@ -78,6 +78,7 @@ img {
 
 .navigation {
     display: flex;
+    align-items: center
 }
 
 .logo {
@@ -89,6 +90,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+
 }
 
 .nav-list {
@@ -106,6 +108,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .manual-link:hover,
@@ -139,6 +142,10 @@ img {
 
 /* ---------------MENU------------ */
 
+.menu {
+    padding: 188px 0;
+}
+
 .menu-title {
     color: #FFF;
     text-align: center;
@@ -152,7 +159,6 @@ img {
 .solutions-container {
     background-color: #2E2F42;
     padding: 188px;
-    text-align: center;
 }
 
 .menu-btn {
@@ -169,6 +175,11 @@ img {
     align-items: flex-start;
     gap: 10px;
     margin-left: auto;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .menu-btn:hover,
@@ -220,7 +231,7 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -235,8 +246,8 @@ img {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.menu-team-image {
-    margin-bottom: 32px;
+.container-team {
+    padding: 32px 0;
 }
 
 .menu-team-title {
@@ -255,7 +266,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
 }
 
 /* ---------------MENU TEAM------------ */
@@ -269,7 +279,7 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -280,12 +290,13 @@ img {
 
 .portfolio-item {
     width: 360px;
-    border: 1px solid #E7E9FC;
     background: #FFF;
 }
 
-.menu-portfolio-image {
-    margin-bottom: 32px;
+.container-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .menu-portfolio-title {
@@ -295,7 +306,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    padding-left: 16px;
 }
 
 .menu-portfolio-text {
@@ -303,8 +313,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
-    padding-left: 16px;
 }
 
 /* ---------------MENU PORTFOLIO------------ */
@@ -319,6 +327,8 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-studio {
@@ -331,7 +341,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
-    padding-top: 16px;
 }
 
 .end {
