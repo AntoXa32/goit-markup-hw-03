@@ -144,6 +144,7 @@ img {
 
 .menu {
     padding: 188px 0;
+    background: #2E2F42;
 }
 
 .menu-title {
@@ -154,11 +155,6 @@ img {
     letter-spacing: 0.02em;
     max-width: 496px;
     margin: 0 auto 48px;
-}
-
-.solutions-container {
-    background-color: #2E2F42;
-    padding: 188px;
 }
 
 .menu-btn {
@@ -180,6 +176,7 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-right: auto;
 }
 
 .menu-btn:hover,
